@@ -1,0 +1,15 @@
+###
+### Login Test Request
+###
+
+# POST request to login
+POST http://127.0.0.1:8000/login
+
+# Request headers
+Content-Type: application/json
+
+# Request body with login credentials
+{
+    "email": "schmidt.rosalinda@example.com",
+    "password": "password"
+}
